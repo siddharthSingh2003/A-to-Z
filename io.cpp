@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -6,7 +6,9 @@ int main()
     string x;
     cout << "Hello World!" << endl;
 
-    cin >> x;
+    getline(cin, x);
     cout << x << endl;
+
+        cout << sizeof(int) << endl;
     return 0;
 }
