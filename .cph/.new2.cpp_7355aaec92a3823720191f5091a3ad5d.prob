@@ -1,0 +1,1 @@
+{"name":"Local: new2","url":"c:\\C Codes\\A-to-Z\\new2.cpp","tests":[{"id":1685792028436,"input":"5\n3\n1 16 25","output":"1\n6\n9"},{"id":1685792116056,"input":"4\n16\n10 6 16 3 12 11 9 3 8 16 11 5 8 8 4","output":"4\n3 \n7\n2\n5\n5\n4\n2\n4\n7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\C Codes\\A-to-Z\\new2.cpp","group":"local","local":true}

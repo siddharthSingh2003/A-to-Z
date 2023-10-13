@@ -15,10 +15,7 @@ int dataTypeSize(string str)
     {
         cout << sizeof(long) << endl;
     }
-    else if (str == "Float")
-    {
-        cout << sizeof(float) << endl;
-    }
+
     else if (str == "Double")
     {
         cout << sizeof(double) << endl;

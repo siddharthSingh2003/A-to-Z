@@ -1,1 +1,1 @@
-string x;
+#include <bits/stdc++.h>
