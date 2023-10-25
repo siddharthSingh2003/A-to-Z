@@ -17,11 +17,11 @@ int main()
     cin >> q;
     while (q--)
     {
-        char c;
-        cin >> c;
+        char d;
+        cin >> d;
         // fetch
 
-        cout << hash[c] << endl;
+        cout << hash[d] << endl;
     }
     return 0;
 }
