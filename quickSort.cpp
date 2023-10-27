@@ -44,7 +44,7 @@ void quickSort(int arr[], int low, int high)
 
 int main()
 {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int arr[] = {64, 34, 25, 12, 22, 11, 0};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     std::cout << "Original array: ";
