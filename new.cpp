@@ -36,10 +36,10 @@ int main()
             std::cin >> A[i].first >> A[i].second;
         }
 
-        int K;
-        std::cin >> K;
+        int p;
+        std::cin >> p;
 
-        int result = solve(N, A, K);
+        int result = solve(N, A, p);
         std::cout << result << std::endl;
     }
 
