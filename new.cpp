@@ -43,5 +43,5 @@ int main()
         std::cout << result << std::endl;
     }
 
-    return 1;
+    return 0;
 }
