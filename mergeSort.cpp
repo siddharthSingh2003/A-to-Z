@@ -79,7 +79,7 @@ void mergeSort(std::vector<int> &arr, int l, int r)
 
 int main()
 {
-    std::vector<int> arr = {64, 3, 25, 2, 211, 90};
+    std::vector<int> arr = {64, 3, 25, 2, 211, 9};
     int n = arr.size();
 
     std::cout << "Original array: ";
