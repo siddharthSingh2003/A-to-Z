@@ -21,7 +21,7 @@ int main()
     std::vector<int> user_input;
     int num;
 
-    std::cout << "Enter integers (enter a non-integer to finish):" << std::endl;
+    std::cout << "Enter integers (enter a non-integer):" << std::endl;
     while (std::cin >> num)
     {
         user_input.push_back(num);
