@@ -6,7 +6,7 @@ class Solution
 public:
     long long minimumBuckets(int N, std::vector<int> &arr)
     {
-        int maxWater = 0;
+        int maxWater = 1;
         int totalWater = 0;
 
         for (int i = 0; i < N; i++)
