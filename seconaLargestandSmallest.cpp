@@ -33,52 +33,67 @@ using namespace std;
 
 // Better Approch
 
+// int getElement(int arr[], int n)
+// {
+//     // code here
+
+//     int largest = arr[0];
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (arr[i] > largest)
+//         {
+//             largest = arr[i];
+//         }
+//     }
+
+//     int small = arr[0];
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (arr[i] < small)
+//         {
+//             small = arr[i];
+//         }
+//     }
+
+//     int secondLargest = -1;
+
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (arr[i] > secondLargest && arr[i] != largest)
+//         {
+//             secondLargest = arr[i];
+//         }
+//     }
+
+//     int secondSmall = INT_MAX;
+
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (arr[i] < secondSmall && arr[i] != small)
+//         {
+//             secondSmall = arr[i];
+//         }
+//     }
+//     cout << secondLargest << endl;
+//     cout << secondSmall << endl;
+//     return 0;
+// }
+
 int getElement(int arr[], int n)
 {
-    // code here
+    int largest = arr[0], secondLargest = INT_MIN;
 
-    int largest = arr[0];
     for (int i = 0; i < n; i++)
     {
         if (arr[i] > largest)
         {
+            secondLargest = largest;
             largest = arr[i];
         }
     }
-
-    int small = arr[0];
-    for (int i = 0; i < n; i++)
-    {
-        if (arr[i] < small)
-        {
-            small = arr[i];
-        }
-    }
-
-    int secondLargest = -1;
-
-    for (int i = 0; i < n; i++)
-    {
-        if (arr[i] > secondLargest && arr[i] != largest)
-        {
-            secondLargest = arr[i];
-        }
-    }
-
-    int secondSmall = INT_MAX;
-
-    for (int i = 0; i < n; i++)
-    {
-        if (arr[i] < secondSmall && arr[i] != small)
-        {
-            secondSmall = arr[i];
-        }
-    }
     cout << secondLargest << endl;
-    cout << secondSmall << endl;
     return 0;
 }
-
 int main()
 {
     int arr[] = {1, 2, 4, 6, 7, 7, 5};
