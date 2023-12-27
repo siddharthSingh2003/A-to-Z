@@ -19,7 +19,7 @@ int remove_duplicate(int arr[], int n)
 
 int main()
 {
-    int arr[] = {1, 2, 4, 5, 5, 5, 5, 5, 6, 7, 7, 5};
+    int arr[] = {1, 2, 4, 5, 5, 5, 5, 5, 6,6, 7, 7, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
     remove_duplicate(arr, n);
     return 0;
