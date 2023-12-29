@@ -27,7 +27,7 @@ public:
 
 int main()
 {
-    vector<int> nums = {1, 1, 0, 1, 1, 1, 0};
+    vector<int> nums = {1, 1, 0, 1, 1, 1, 0, 0};
     Solution obj;
     int ans = obj.findMaxConsecutiveOnes(nums);
     cout << "The maximum  consecutive 1's are " << ans;
