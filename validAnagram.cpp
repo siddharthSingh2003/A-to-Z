@@ -17,6 +17,6 @@ int main()
     }
     else
     {
-        cout << "IS not anagram" << endl;
+        cout << "not anagram" << endl;
     }
 }
