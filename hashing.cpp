@@ -18,7 +18,7 @@ int count(int n, vector<int> arr)
 
 int main()
 {
-    vector<int> arr = {0, 2, 1, 3, 4, 4,5, 2, 4};
+    vector<int> arr = {0, 2, 1, 3, 4, 4,5,5, 2, 4};
     int res = count(2, arr);
     cout << res << endl;
     return 0;
