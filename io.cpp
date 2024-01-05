@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     string x;
-    cout << "Hello World!" << endl;
+    cout << "Hello Word!" << endl;
 
     getline(cin, x);
     cout << x << endl;
