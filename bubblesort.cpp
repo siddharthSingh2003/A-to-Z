@@ -19,7 +19,7 @@ void bubbleSort(int arr[], int n)
 
 int main()
 {
-    int arr[] = {04, 234, 25, 12, 222, 10, 39};
+    int arr[] = {04, 234, 25, 12, 22, 10, 39};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     std::cout << "Original array: ";
