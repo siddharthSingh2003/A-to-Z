@@ -25,5 +25,5 @@ int main()
 {
     
 
-    cout << pascalTriangle(5,3) << endl;
+    cout << pascalTriangle(6,3) << endl;
 }
