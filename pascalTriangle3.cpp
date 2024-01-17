@@ -32,7 +32,7 @@ vector<vector<int>> pascalTriangle(int n)
 
 int main()
 {
-    int n = 144;
+    int n = 144;+
     vector<vector<int>> ans = pascalTriangle(n);
     for (auto it : ans)
     {
