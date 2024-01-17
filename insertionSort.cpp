@@ -20,7 +20,7 @@ void insertionSort(int arr[], int n)
 
 int main()
 {
-    int arr[] = {64, 34, 259, 12, 2, 1, 900};
+    int arr[] = {64, 34, 259, 12, 2, 1, 90};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     std::cout << "Original array: ";
