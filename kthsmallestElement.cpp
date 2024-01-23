@@ -1,19 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int kthsmallest(int arr[], int n)
+int kthSmallest(int arr[], int l, int r, int k)
 {
+    r = r + 1;
+    sort(arr, arr + r);
 
-    // int n = sizeof(arr) / sizeof(arr[0]);
-    sort(arr, arr + n);
-    cout << arr[5];
-    return 1;
+    return arr[k-1];
 }
 
 int main()
 {
-    int arr[] = {2, 4, 5, 4, 2, 6, 2};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    kthsmallest(arr, n);
+    int arr[] = {7 ,10, 4, 20, 15};
+    
+    // int r = n - 1;
+    int k = 4;
+    int result = kthSmallest(arr, 0, 4, k);
+    cout << "Kth Smallest Element: " << result << endl;
     return 0;
 }
