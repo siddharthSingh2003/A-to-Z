@@ -39,7 +39,7 @@ int getMinDiff(int arr[], int n, int k)
 
 
 int main(){
-    int arr[] = {7, 7, 3, 5};
+    int arr[] = {7, 6, 3, 5};
     int n = 4;
     int k = 1;
 
