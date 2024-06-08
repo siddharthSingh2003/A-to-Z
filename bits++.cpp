@@ -1,25 +1,22 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-
 int main()
 {
-    int t;
-    cin >> t;
-    string s;
-    int X = 0;
-    while (t--)
+    int n;
+    cin >> n;
+    int x = 0;
+    for (int i = 0; i < n; i++)
     {
-        cin >> s;
-
-        if (s == "X++" || s == "++X")
+        string st;
+        cin >> st;
+        if (st[1] == '+')
         {
-            X++;
+            x++;
         }
         else
         {
-            X--;
+            x--;
         }
     }
-    cout << X;
-    return 1;
+    cout << x << endl;
 }
