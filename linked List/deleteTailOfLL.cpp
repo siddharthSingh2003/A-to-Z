@@ -28,11 +28,13 @@ Node *convertarr2LL(vector<int> &arr)
     return head;
 }
 
-Node* deleteTail(Node* head){
-    if(head == NULL || head -> next == NULL)
+Node *deleteTail(Node *head)
+{
+    if (head == NULL || head->next == NULL)
         return NULL;
     Node *temp = head;
-    while(temp -> next-> next != NULL){
+    while (temp->next->next != NULL)
+    {
         temp = temp->next;
     }
     delete (temp->next);
@@ -53,7 +55,7 @@ void traverseLL(Node *head)
 }
 int main()
 {
-    vector<int> arr = {1, 2, 3, 4, 5};
+    vector<int> arr = {1, 2};
     Node *head = convertarr2LL(arr);
 
     cout << "Original Linked List: ";
