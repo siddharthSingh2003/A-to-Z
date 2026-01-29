@@ -1,0 +1,1 @@
+{"name":"Local: binarySearch","url":"c:\\C Codes\\A-to-Z\\binarySearch.cpp","tests":[{"id":1761932175536,"input":"[-9109,-6888,-5296,-3183,-1570,-1423,-1186,-380,813,2988,3213,3497,3695,4774,5519,6119,6708,9245,9371,9434,9517]","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\C Codes\\A-to-Z\\binarySearch.cpp","group":"local","local":true}
