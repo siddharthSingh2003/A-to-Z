@@ -24,6 +24,32 @@ Node* convertArray2LL(vector<int> &arr){
     return head;
 }
 
+Node* deleteKthelement(Node* head, int k){
+    if (k==1){
+        Node *temp = head;
+        head = head->next;
+
+        delete (temp);
+        return head;
+    }
+
+    Node *temp = head;
+    Node *prev = NULL;
+    int cnt = 1;
+    while(temp!=NULL){
+        
+        if (cnt==k){
+            prev->next = temp->next;
+            delete temp;
+            break;
+        }
+        prev = temp;
+        temp = temp->next;
+        cnt++;
+    }
+    return head;
+}
+
 
 
 int printLL(Node* head){
@@ -34,6 +60,7 @@ int printLL(Node* head){
         cout << temp->data << " ";
         temp = temp->next;
     }
+    cout << endl;
     return 0;
 }
 
@@ -42,6 +69,8 @@ int main(){
     vector<int> arr = { 1, 2, 3, 4, 5, 6 };
 
     Node *head = convertArray2LL(arr);
+    printLL(head);
+    head = deleteKthelement(head, 3);
     printLL(head);
 
     return 0;
