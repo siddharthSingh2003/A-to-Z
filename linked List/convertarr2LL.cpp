@@ -28,14 +28,14 @@ Node *convertArray2LL(vector<int> &arr)
     return head;
 }
 
-int printLL(Node* head ){
+void printLL(Node* head ){
 
     Node *temp = head;
     while(temp!=NULL){
         cout << temp->data << " ";
         temp = temp->next;
     }
-    return 0;
+    
 }
 
 int main()
